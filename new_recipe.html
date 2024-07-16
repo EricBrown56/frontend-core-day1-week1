@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/cookie.png"><!--It is very important to add a favicon which puts an image in the tab of your browser-->
+    <link rel="stylesheet" href="new_recipe.css"><!--This is how you link your CSS file to your HTML file-->
+            
+    <title>New Recipe</title>
+</head>
+<body class="cookie-image">
+    
+    <header>
+        <h1>
+            Do you have a recipe you would like to share?
+        </h1>
+        <p>
+            Share your recipe with the world! Fill out the form below to submit 
+            your recipe.
+        </p>
+    </header>
+    
+    <footer>
+        <form action="#" method="post" class="box">
+            <label for="recipe_name">Recipe Name:</label>
+            <input type="text" id="recipe_name" name="recipe_name" 
+            placeholder="Recipe Name" required>
+            <br>
+            <label for="recipe_description">Recipe Description:</label>
+            <textarea id="recipe_description" name="recipe_description" 
+            placeholder="Enter your life story "  required></textarea>
+            <br>
+            <label for="recipe_ingredients">Recipe Ingredients:</label>
+            <textarea id="recipe_ingredients" name="recipe_ingredients" 
+            placeholder="Enter Recipe Ingredients"  required></textarea>
+            <br>
+            <label for="recipe_instructions">Recipe Instructions:</label>
+            <textarea id="recipe_instructions" name="recipe_instructions" 
+            placeholder="Enter Recipe Instructions"  required></textarea>
+            <br>
+            <button type="reset" aria-label="Reset Form">Reset</button>
+            <button type="submit" aria-label="Submit Form">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>

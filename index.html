@@ -10,32 +10,35 @@
     <meta name="author" content="Eric Brown"><!--author of the website-->
     <link rel="stylesheet" href="index.css"><!--linking the CSS file to the HTML file-->
     <title>A Classic Chocolate Chip Cookie Recipe</title>
-    <link rel="shortcut icon" type= "image/x-icon" href="cookie.png"><!--favicon-->
+    <link rel="shortcut icon" type= "image/x-icon" href="images/cookie.png"><!--favicon-->
 </head>
 
 <body>
-    <h1>A Classic Chocolate Chip Cookie Recipe</h1><!--h1 to h6-->
+    <header>
+        <h1 class="abril-fatface-regular">A Classic Chocolate Chip Cookie Recipe</h1><!--h1 to h6-->
 
-    <h3><p>Here is a classic chocolate chip cookie recipe that <strong>you</strong> 
-        should try:</p></h3><!--paragraph-->
-    <img src="images/chocolate_chip_cookie.jpg" width="300" height="200" 
-    alt="Chocolate Chip Cookie Image"><!--image added to webpage-->
+        <h3 class="signika-negative-regular"><p>Here is a classic chocolate chip cookie recipe that <strong>you</strong> 
+            should try:</p></h3><!--paragraph-->
+        <img src="images/chocolate_chip_cookie.jpg" width="300" height="200" 
+        alt="Chocolate Chip Cookie Image" style="border-radius: 25px;"><!--image added to webpage-->
 
-    <p>
-        Photo by <a href="https://unsplash.com/@shaktirajpurohit?utm_content=
-        creditCopyText&utm_medium=referral&utm_source=unsplash">
-        Shakti Rajpurohit</a> on <a href="https://unsplash.com/photos/brown-
-        cookies-on-white-ceramic-plate-qczubsyHofQ?utm_content=creditCopyText&utm_
-        medium=referral&utm_source=unsplash">Unsplash</a><!--adding photo credentials-->
-    </p>
+    
+        <p style="font-size: 12px;">
+            Photo by Shakti Rajpurohit on Unsplash<!--adding photo credentials-->
+        </p>
+    </header>
+    
 
-    <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016" 
-    target="_blank">Classic Chocolate Chip Cookies</a><!--URL to the specified link as given in the assignment-->
+    <div class="pulse"><!--div class used to create a pulse effect-->
+        <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016" 
+        target="_blank">Classic Chocolate Chip Cookies</a><!--URL to the specified link as given in the assignment-->
+    </div>
     <ul>
 
-        <li><b>Ingredients:</b></li><!--adding both unordered and ordered lists into the webpage-->
-
-        <ul>
+    <div class="round3"><!--div class used to create a rounded border effect-->
+        <b>Ingredients:</b><!--adding both unordered and ordered lists into the webpage-->
+    
+        <ul class="dm-serif-display-regular">
             <li>1 cup (2 sticks) unsalted butter, softened</li>
             <li>3/4 cup granulated sugar</li>
             <li>3/4 cup packed brown sugar</li>
@@ -47,24 +50,41 @@
             <li>2 cups semisweet chocolate chips</li>
             <li>1 cup chopped walnuts (optional)</li>
         </ul>
+    </div>
+    <div id="box"><!--div class used to create a rounded border effect-->
+        <b>Steps:</b>
 
-        <li><b>Steps</b></li>
-
-        <ol>
-            <li>Preheat the oven to 375°F (190°C). Line baking sheets with parchment paper or silicone baking mats.</li>
-            <li>In a large mixing bowl, cream together the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.</li>
+        <ol class="tiro-bangla-regular">
+            <li>Preheat the oven to 375°F (190°C). Line baking sheets with parchment 
+                paper or silicone baking mats.</li>
+            <li>In a large mixing bowl, cream together the softened butter, 
+                granulated sugar, brown sugar, and vanilla extract until light 
+                and fluffy.</li>
             <li>Add the eggs, one at a time, beating well after each addition.</li>
-            <li>In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</li>
-            <li>Stir in the chocolate chips and chopped nuts (if using) until evenly distributed throughout the dough.</li>
-            <li>Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.</li>
-            <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges are golden brown.</li>
-            <li>Remove from the oven and allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+            <li>In a separate bowl, whisk together the flour, baking soda, and salt. 
+                Gradually add the dry ingredients to the wet ingredients, mixing 
+                until just combined.</li>
+            <li>Stir in the chocolate chips and chopped nuts (if using) until evenly 
+                distributed throughout the dough.</li>
+            <li>Drop rounded tablespoons of dough onto the prepared baking sheets, 
+                spacing them about 2 inches apart.</li>
+            <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges 
+                are golden brown.</li>
+            <li>Remove from the oven and allow the cookies to cool on the baking 
+                sheets for a few minutes before transferring them to wire racks to 
+                cool completely.</li>
         </ol>
+    </div>
 
     </ul>
     
-
-    <p>Don't forget to enjoy your Class Chocolate Chip Cookies with a tall glass of milk &ndash; the perfect combination!</p><!--adding special charactors-->
-    
+    <footer class="zoom">
+        <p>Don't forget to enjoy your Class Chocolate Chip Cookies with a tall glass 
+            of milk &ndash; the perfect combination!</p><!--adding special charactors-->
+        <p>Do YOU have a recipe you would like to add? Click the button below!</p>
+        <a href="new_recipe.html" class="button">
+            <button target="_blank">Add a new recipe</button>
+        </a>
+    </footer>
 </body>
 </html>

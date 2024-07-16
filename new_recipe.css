@@ -1,0 +1,59 @@
+.cookie-image {
+    background-image: url("images/cookie_img.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header {
+    color: white;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 0;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+   
+}
+
+form {
+    
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-family: 'Abril Fatface', serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    
+    
+    width: 50%;
+    margin: 0 auto;
+}
+
+.box {
+    border: 2px solid #fcf9fa;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px;
+    width: 350px;
+    background-color: rgb(68, 69, 65);
+  }
